@@ -1,0 +1,29 @@
+body{
+    margin: auto;
+    font-family: sans-serif;
+    background: white;
+}
+
+.header{
+    padding: 30px;
+    background-color: #0a0a23;
+    text-align: center;
+    color: white;
+    border-bottom: 5px solid yellow;
+    
+}
+
+.photos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px 10px;
+}
+.photos img{
+    width: 28%;
+    height: 390px;
+    border-radius: 30px;
+    padding: 12px;
+}
